@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LZC&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lizhicheng1997.github.io/"/>
+  <updated>2018-12-16T07:46:12.453Z</updated>
+  <id>https://lizhicheng1997.github.io/</id>
+  
+  <author>
+    <name>LZC</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS下安装使用crontab</title>
+    <link href="https://lizhicheng1997.github.io/2018/11/28/CentOS%E4%B8%8B%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8crontab/"/>
+    <id>https://lizhicheng1997.github.io/2018/11/28/CentOS下安装使用crontab/</id>
+    <published>2018-11-28T07:47:53.000Z</published>
+    <updated>2018-12-16T07:46:12.453Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h2><h3 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install crontabs    // 安装crontab</span><br></pre></td></tr></table></figure><h3 id="二、crontab日志"><a href="#二、crontab日志" class="headerlink" title="二、crontab日志"></a>二、crontab日志</h3><blockquote><p>1.crontab日志位置: /var/log/cron<br>2.若误删了crontab日志文件, 可重启rsyslogd服务来回复日志文件, 命令为: service rsyslog restart</p></blockquote><h3 id="三、常用命令"><a href="#三、常用命令" class="headerlink" title="三、常用命令"></a>三、常用命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">service crond start     // 启动服务</span><br><span class="line">service crond stop      // 关闭服务</span><br><span class="line">service crond restart   // 重启服务</span><br><span class="line">service crond reload    // 重新载入配置</span><br><span class="line">service crond status    // 查看crontab服务状态</span><br><span class="line">service crond start     // 手动启动crontab服务</span><br><span class="line">chkconfig crond on      // 加入开机自动启动</span><br><span class="line">crontab -e              // 添加相应的任务</span><br><span class="line">vi /etc/crontab         // 添加相应的任务</span><br><span class="line">crontab -l              // 查看当前定时任务</span><br></pre></td></tr></table></figure><p><img src="/2018/11/28/CentOS下安装使用crontab/test.jpg" alt="这是测试图片"></p><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;快速使用&quot;&gt;&lt;a href=&quot;#快速使用&quot; class=&quot;headerlink&quot; title=&quot;快速使用&quot;&gt;&lt;/a&gt;快速使用&lt;/h2&gt;&lt;h3 id=&quot;一、安装&quot;&gt;&lt;a href=&quot;#一、安装&quot; class=&quot;headerlink&quot; title=&quot;一、安装&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://lizhicheng1997.github.io/categories/Linux/"/>
+    
+      <category term="Linux &amp; Crontab" scheme="https://lizhicheng1997.github.io/categories/Linux/Linux-Crontab/"/>
+    
+    
+      <category term="CentOS" scheme="https://lizhicheng1997.github.io/tags/CentOS/"/>
+    
+  </entry>
+  
+</feed>
