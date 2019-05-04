@@ -366,6 +366,195 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lizhicheng1997.github.io/2019/05/04/微信公众号/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LZC">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/author.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LZC's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/05/04/微信公众号/" itemprop="url">微信公众号</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-04T11:27:59+08:00">
+                2019-05-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/微信公众号/" itemprop="url" rel="index">
+                    <span itemprop="name">微信公众号</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                  <span class="post-meta-divider">|</span>
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2.9k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  14
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="一、微信网页授权"><a href="#一、微信网页授权" class="headerlink" title="一、微信网页授权"></a>一、微信网页授权</h1><h2 id="1-配置步骤"><a href="#1-配置步骤" class="headerlink" title="1. 配置步骤"></a>1. 配置步骤</h2><blockquote><ol>
+<li>进入微信公众号平台，“公众号设置-&gt;功能设置”，配置网页授权域名；</li>
+<li>在项目后台配置授权的scopes和回调页面：<br>2.1 WECHAT_OFFICIAL_ACCOUNT_OAUTH_SCOPES = ‘snsapi_userinfo’<br>2.2 WECHAT_OFFICIAL_ACCOUNT_OAUTH_CALLBACK = ‘/public/index.php/wechat/auth-callBack’</li>
+<li>在微信配置文件中开启和配置：OAuth 配置；</li>
+<li>进入项目页面时，先判断用户是否登录或授权（通过session判断）：<br>4.1 已登录或授权：更新数据库该用户信息，跳转项目页面；<br>4.2 未登录或授权：跳转到授权登录页（配置文件中已配置好的路径），将授权后得到的用户信息写入session中保存，再跳转到项目页面；</li>
+</ol>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/05/04/微信公众号/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lizhicheng1997.github.io/2018/11/28/CentOS下安装使用crontab/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -385,7 +574,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/11/28/CentOS下安装使用crontab/" itemprop="url">CentOS下安装使用crontab</a></h1>
+                <a class="post-title-link" href="/2018/11/28/CentOS下安装使用crontab/" itemprop="url">CentOS下安装使用crontab（这是测试文章）</a></h1>
         
 
         <div class="post-meta">
@@ -502,15 +691,17 @@
 
       
         
-          
-            <h2 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h2><h3 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install crontabs    // 安装crontab</span><br></pre></td></tr></table></figure>
+          <h2 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h2><h3 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install crontabs    // 安装crontab</span><br></pre></td></tr></table></figure>
 <h3 id="二、crontab日志"><a href="#二、crontab日志" class="headerlink" title="二、crontab日志"></a>二、crontab日志</h3><blockquote><p>1.crontab日志位置: /var/log/cron<br>2.若误删了crontab日志文件, 可重启rsyslogd服务来回复日志文件, 命令为: service rsyslog restart</p>
 </blockquote>
 <h3 id="三、常用命令"><a href="#三、常用命令" class="headerlink" title="三、常用命令"></a>三、常用命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">service crond start     // 启动服务</span><br><span class="line">service crond stop      // 关闭服务</span><br><span class="line">service crond restart   // 重启服务</span><br><span class="line">service crond reload    // 重新载入配置</span><br><span class="line">service crond status    // 查看crontab服务状态</span><br><span class="line">service crond start     // 手动启动crontab服务</span><br><span class="line">chkconfig crond on      // 加入开机自动启动</span><br><span class="line">crontab -e              // 添加相应的任务</span><br><span class="line">vi /etc/crontab         // 添加相应的任务</span><br><span class="line">crontab -l              // 查看当前定时任务</span><br></pre></td></tr></table></figure>
-<p><img src="/2018/11/28/CentOS下安装使用crontab/test.jpg" alt="这是测试图片"></p>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/11/28/CentOS下安装使用crontab/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -596,7 +787,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -607,7 +798,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -618,7 +809,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -684,7 +875,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -709,7 +900,7 @@
 
 
 <div class="theme-info">
-  <span class="post-count"> 博客全站共149字</span>
+  <span class="post-count"> 博客全站共3.1k字</span>
 </div>
 
         
