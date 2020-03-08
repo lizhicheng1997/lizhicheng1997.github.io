@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lizhicheng1997.github.io/2020/03/08/PHP%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AF%87/</loc>
+    
+    <lastmod>2020-03-08T07:54:01.765Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lizhicheng1997.github.io/2018/11/28/CentOS%E4%B8%8B%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8crontab/</loc>
     
     <lastmod>2019-05-04T04:36:50.364Z</lastmod>
@@ -30,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://lizhicheng1997.github.io/schedule/index.html</loc>
+    <loc>https://lizhicheng1997.github.io/sitemap/index.html</loc>
     
     <lastmod>2018-12-16T07:46:12.483Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lizhicheng1997.github.io/sitemap/index.html</loc>
+    <loc>https://lizhicheng1997.github.io/schedule/index.html</loc>
     
     <lastmod>2018-12-16T07:46:12.483Z</lastmod>
     
